@@ -4,11 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Flowers;
+use App\Products;
 class IndexController extends Controller
 {
     public function index(){
-    	$arItems = Flowers::orderBy('id','DESC')->where('type','=',3)->paginate(5);
-        $arItems_news = Flowers::orderBy('id','DESC')->where('type','=',2)->paginate(8);
+    	$arrItems = Products::orderBy('id','ASC')->limit(9)->get();
+        // $tags = \App\Tags::all()->toArray();
+        // $arItems_news = Flowers::orderBy('id','DESC')->where('type','=',2)->paginate(8);
         // $url = url();
         // $urlCurrent =url()->current();
         // dd($urlCurrent);
@@ -17,7 +19,10 @@ class IndexController extends Controller
     	// 	"arItems_news"     =>$arItems_news,
     	// 	"titlePublic" =>'Trang chủ'
     	// 	]);
-        return view("public.index");
+        return view("public.index",[
+            'arrItems' => $arrItems->toArray(),
+            // 'tags'     => $tags
+        ]);
     }
     public function detail($slug,$id){
     	$arItem         = Flowers::find($id);;

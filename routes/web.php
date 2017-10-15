@@ -29,7 +29,7 @@ Route::get("/",[
     "uses"=>"IndexController@index",
     "as"=>"public.index.index"
         ]);
-Route::get("danh-muc-san-pham-{id}",[
+Route::get("{slug}-{id}",[
     "uses"=>"CatsController@cats",
     "as"=>"public.cats.cats"
         ]);

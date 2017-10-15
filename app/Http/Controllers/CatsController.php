@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Flowers;
+use App\Products;
 
 class CatsController extends Controller
 {
@@ -13,10 +14,10 @@ class CatsController extends Controller
     		"arItems"=>$arItems
     		]);
     }
-    public function cats($id){
-    	$arItems = Flowers::orderBy('id','DESC')->where('cats_id','=',$id)->paginate(12);
-    	return view("flowers.flowers",[
-    		"arItems"=>$arItems
+    public function cats($slug,$id){
+    	$arrItems = Products::orderBy('id','DESC')->where('category_id','=',$id)->limit(12)->get();
+    	return view("public.products_cat",[
+    		"arrItems"=>$arrItems
     		]);
     }
 }

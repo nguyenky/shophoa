@@ -1,6 +1,5 @@
-@extends('templates.new_public.template')
+@extends('templates.new_public.template_not_slide')
 @section('main')
-	
 	<div class="features_items"><!--features_items-->
 		<h2 class="title text-center">Features Items</h2>
 		@foreach($arrItems as $value)

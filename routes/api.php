@@ -16,3 +16,6 @@ use Illuminate\Http\Request;
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
+Route::group(['prefix'=>'public','namespace'=>'Api\SitePublic'],function(){
+	Route::get('get-mini-cats','PublicApiController@get_mini_categories');
+});

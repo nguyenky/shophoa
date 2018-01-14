@@ -17,6 +17,7 @@ class CreateTableTags extends Migration
             $table->increments('id');
             $table->string('name');
             $table->integer('new_price');
+            $table->string('slug_name');
         });
     }
 

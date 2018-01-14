@@ -17,6 +17,7 @@ class TagsSeeder extends Seeder
         	Tags::create([
         		'name' => $value,
         		'new_price' => rand(1,50),
+                'slug_name' => 'slug_name_'.$key
         	]);
         }
     }

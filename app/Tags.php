@@ -7,9 +7,11 @@ class Tags extends Model
     public $fillable = [
         'name',
         'new_price',
+        'slug_name'
     ];
     protected $casts = [
         'name' => 'string',
+        'slug_name' => 'string',
         'new_price' => 'integer',
     ];
     public $timestamps = false;

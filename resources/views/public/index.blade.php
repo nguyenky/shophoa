@@ -17,7 +17,9 @@
 							<div class="overlay-content">
 								<h2>${{$value['price']}}</h2>
 							<p>{{$value['name']}}</p>
-								<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+								<div>
+									<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+								</div>
 							</div>
 						</div>
 				</div>
@@ -30,6 +32,7 @@
 			</div>
 		</div>
 		@endforeach
-	</div><!--features_items-->
+	</div>
+	<!--features_items-->
 
 @endsection

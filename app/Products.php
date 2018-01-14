@@ -3,7 +3,7 @@ namespace App;
 use Eloquent as Model;
 class Products extends Model
 {
-    public $table = 'products_new';
+    public $table = 'products';
     public $fillable = [
         'name',
         'category_id',

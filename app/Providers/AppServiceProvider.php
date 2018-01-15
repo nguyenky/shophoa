@@ -23,7 +23,7 @@ class AppServiceProvider extends ServiceProvider
         $cats=  $objCategory->cats_parrent();
         $slide = $objProducts->slide();
         $brands = $objBrands->count_brands();
-        // View::share('urlPublic','http://localhost/shophoa'.getenv('PUBLIC_URL'));
+        View::share('urlPublic',getenv('PUBLIC_URL'));
         View::share('urlAdmin',getenv('ADMIN_URL'));
         View::share('titlePublic','Kys Flowers');
         View::share('titleAdmin','Admin');

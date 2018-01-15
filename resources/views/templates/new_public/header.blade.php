@@ -6,13 +6,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | E-Shopper</title>
-    <link href="{{asset('resources/assets/templates/new_public/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('resources/assets/templates/new_public/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{asset('resources/assets/templates/new_public/css/prettyPhoto.css')}}" rel="stylesheet">
-    <link href="{{asset('resources/assets/templates/new_public/css/price-range.css')}}" rel="stylesheet">
-    <link href="{{asset('resources/assets/templates/new_public/css/animate.css')}}" rel="stylesheet">
-	<link href="{{asset('resources/assets/templates/new_public/css/main.css')}}" rel="stylesheet">
-	<link href="{{asset('resources/assets/templates/new_public/css/responsive.css')}}" rel="stylesheet">
+    <link href="{{$urlPublic}}css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{$urlPublic}}css/font-awesome.min.css" rel="stylesheet">
+    <link href="{{$urlPublic}}css/prettyPhoto.css" rel="stylesheet">
+    <link href="{{$urlPublic}}css/price-range.css" rel="stylesheet">
+    <link href="{{$urlPublic}}css/animate.css" rel="stylesheet">
+	<link href="{{$urlPublic}}css/main.css" rel="stylesheet">
+	<link href="{{$urlPublic}}css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>

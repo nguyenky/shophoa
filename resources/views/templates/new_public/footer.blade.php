@@ -13,7 +13,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{$urlPublic}}images/home/iframe1.png" alt="" />
+										<img src="{{asset('/resources/assets/templates/new_public/images/home/iframe1.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -28,7 +28,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{$urlPublic}}images/home/iframe2.png" alt="" />
+										<img src="{{asset('/resources/assets/templates/new_public/images/home/iframe2.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -43,7 +43,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{$urlPublic}}images/home/iframe3.png" alt="" />
+										<img src="{{asset('/resources/assets/templates/new_public/images/home/iframe3.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -58,7 +58,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{$urlPublic}}images/home/iframe4.png" alt="" />
+										<img src="{{asset('/resources/assets/templates/new_public/images/home/iframe4.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -71,7 +71,7 @@
 					</div>
 					<div class="col-sm-3">
 						<div class="address">
-							<img src="{{$urlPublic}}images/home/map.png" alt="" />
+							<img src="{{asset('/resources/assets/templates/new_public/images/home/map.png')}}" alt="" />
 							<p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
 						</div>
 					</div>
@@ -158,13 +158,13 @@
 	
 
   
-    <script src="{{$urlPublic}}js/jquery.js"></script>
-	<script src="{{$urlPublic}}js/bootstrap.min.js"></script>
-	<script src="{{$urlPublic}}js/jquery.scrollUp.min.js"></script>
-	<script src="{{$urlPublic}}js/price-range.js"></script>
-    <script src="{{$urlPublic}}js/jquery.prettyPhoto.js"></script>
-    <script src="{{$urlPublic}}js/main.js"></script>
+    <script src="{{asset('/resources/assets/templates/new_public/js/jquery.js')}}"></script>
+	<script src="{{asset('/resources/assets/templates/new_public/js/bootstrap.min.js')}}"></script>
+	<script src="{{asset('/resources/assets/templates/new_public/js/jquery.scrollUp.min.js')}}"></script>
+	<script src="{{asset('/resources/assets/templates/new_public/js/price-range.js')}}"></script>
+    <script src="{{asset('/resources/assets/templates/new_public/js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{asset('/resources/assets/templates/new_public/js/main.js')}}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="{{$urlPublic}}angularjs/angularjs.js"></script>
+    <script src="{{asset('/resources/assets/templates/new_public/angularjs/angularjs.js')}}"></script>
 </body>
 </html>

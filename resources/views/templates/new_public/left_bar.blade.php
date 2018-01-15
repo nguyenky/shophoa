@@ -60,7 +60,7 @@
 	</div><!--/price-range-->
 	
 	<div class="shipping text-center"><!--shipping-->
-		<img src="{{$urlPublic}}images/home/shipping.jpg" alt="" />
+		<img src="{{asset('resources/assets/templates/new_public/images/home/shipping.jpg')}}" alt="" />
 	</div><!--/shipping-->
 
 </div>

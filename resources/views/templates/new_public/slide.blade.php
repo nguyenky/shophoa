@@ -21,9 +21,12 @@
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 									<button type="button" class="btn btn-default get">Get it now</button>
 								</div>
+								<?php
+									$key = $key+1;
+								?>
 								<div class="col-sm-6">
-									<img src="{{$urlPublic}}images/home/girl{{$key+1}}.jpg" class="girl img-responsive" alt="" />
-									<img src="{{$urlPublic}}images/home/pricing.png" class="pricing" alt="" />
+									<img src="{{asset('resources/assets/templates/new_public/images/home/girl'.$key.'.jpg')}}" class="girl img-responsive" alt="" />
+									<img src="{{asset('resources/assets/templates/new_public/images/home/pricing.png')}}" class="pricing" alt="" />
 								</div>
 							</div>
 							@endforeach

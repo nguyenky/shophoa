@@ -158,13 +158,13 @@
 	
 
   
-    <script src="{{asset('/resources/assets/templates/new_public/js/jquery.js')}}"></script>
-	<script src="{{asset('/resources/assets/templates/new_public/js/bootstrap.min.js')}}"></script>
-	<script src="{{asset('/resources/assets/templates/new_public/js/jquery.scrollUp.min.js')}}"></script>
-	<script src="{{asset('/resources/assets/templates/new_public/js/price-range.js')}}"></script>
-    <script src="{{asset('/resources/assets/templates/new_public/js/jquery.prettyPhoto.js')}}"></script>
-    <script src="{{asset('/resources/assets/templates/new_public/js/main.js')}}"></script>
+    <script src="{{$urlPublic}}js/jquery.js"></script>
+	<script src="{{$urlPublic}}js/bootstrap.min.js"></script>
+	<script src="{{$urlPublic}}js/jquery.scrollUp.min.js"></script>
+	<script src="{{$urlPublic}}js/price-range.js"></script>
+    <script src="{{$urlPublic}}js/jquery.prettyPhoto.js"></script>
+    <script src="{{$urlPublic}}js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="{{asset('/resources/assets/templates/new_public/angularjs/angularjs.js')}}"></script>
+    <script src="{{$urlPublic}}angularjs/angularjs.js"></script>
 </body>
 </html>

@@ -20,6 +20,9 @@ Route::pattern('all','(.*)');
 
 
 //---------PUBLIC-------------
+
+
+Route::get('count','U23VietNam@count');
 Route::get("demo",[
     "uses"=>"IndexController@demo",
     "as"=>"public.index.demo"
